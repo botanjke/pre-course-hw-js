@@ -1,6 +1,4 @@
 let str = "zzzzyzz";
-if (str.includes("y")) {
-    console.log("нашел")
-} else {
-    console.log("не нашел")
-};
+let test;
+str.includes("y") ? test = "нашел" : test = "заблудился";
+console.log(test);
