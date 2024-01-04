@@ -1,4 +1,4 @@
 let str = "zzzzyzz";
-let test;
-str.includes("y") ? test = "нашел" : test = "заблудился";
-console.log(test);
+let testY;
+str.includes("y") ? testY = "нашел" : testY = "заблудился";
+console.log(testY);
