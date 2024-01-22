@@ -7,6 +7,6 @@ let passportWithAddress = {
     }
 };
 let passportWithAddress2 = {...passportWithAddress, address:{...passportWithAddress.address}};
-passportWithAddress.address.city = 'Bobryisk' ;
+passportWithAddress2.address.city = 'Bobryisk' ;
 console.log(passportWithAddress.address.city);
 console.log(passportWithAddress2.address.city);
